@@ -33,7 +33,7 @@
     {
       "content": "Testi",
       "id": "46721",
-      "votes": 18
+      "votes": 19
     },
     {
       "content": "Testi3",
@@ -43,6 +43,11 @@
     {
       "content": "aaa",
       "id": "97279",
+      "votes": 0
+    },
+    {
+      "content": "Testiu3",
+      "id": "55520",
       "votes": 0
     }
   ]

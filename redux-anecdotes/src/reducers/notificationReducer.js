@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   notification: '',
-  id: ''
+  id: 0
 }
 
 
@@ -15,9 +15,6 @@ const notificationSlice = createSlice({
       console.log(timeOutId)
       state.notification = msg
       state.id = timeOutId
-    },
-    clearTimeout(state, action){
-      this.clearTimeout(state.id)
     }
   }
 })
